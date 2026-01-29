@@ -27,7 +27,16 @@ fn translate_with_consonant(word: &str) {
 }
 
 fn main() {
-    let word_list: Vec<&str> = vec!["hobby", "apple", "mirror", "scrap", "eagle", "trolly", "otter", "umbrella", "vessel", "1"];
+    let word_list: Vec<&str> = vec!["hobby", 
+                                    "apple", 
+                                    "mirror", 
+                                    "scrap", 
+                                    "eagle", 
+                                    "trolly", 
+                                    "otter", 
+                                    "umbrella", 
+                                    "vessel", 
+                                    "1",]; 
     for word in &word_list {
         if starts_with_vowel(word) {
             translate_with_vowel(word);
